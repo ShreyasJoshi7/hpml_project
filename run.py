@@ -251,7 +251,7 @@ def train(feedfordward_file):
     population.add_reporter(neat.StdOutReporter(True))
     vals = neat.StatisticsReporter()
     population.add_reporter(vals)
-    winner = population.run(eval, 50)
+    winner = population.run(eval, 5)
 
     print('\nBest genome:\n{!s}'.format(winner))
 
