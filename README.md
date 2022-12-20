@@ -11,4 +11,4 @@ File Structure:
 2. run.py --> to run the project
 3. graphics_and_plot.py --> used by run.py
 4. config-feedforward.txt --> hyperparameters of the NEAT Algorithm.
-
+5. result.mov --> result video of the project
