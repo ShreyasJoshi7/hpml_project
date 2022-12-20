@@ -4,7 +4,7 @@ import random
 import os
 import time
 import neat
-import visualize
+import graphics_and_plots
 import pickle
 pygame.font.init()
 
