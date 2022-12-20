@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH --job-name=hpml_Lab_2
+#SBATCH --job-name=hpml_project
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=4
 #SBATCH --output=assi_last.out
 #SBATCH --mem=8GB
 #SBATCH --gres=gpu:4
-#SBATCH --time=00:15:00
+#SBATCH --time=03:00:00
 #SBATCH --mail-user=dg3802@nyu.edu
 #SBATCH --mail-type=ALL
 
