@@ -6,4 +6,9 @@ The project contains graphics but the focus of the project is the understanding 
 To run the training, run the run.py file. --> python3 run.py
 Or upload into the hpc and install install all the requirements mentioned in the requirements.txt and use the sbatch file to run the project.
 
-The base flow of the alogrithm is shown in flow.png
+File Structure:
+1.imgs Folder contains the images used to build the graphics.
+2. run.py --> to run the project
+3. graphics_and_plot.py --> used by run.py
+4. config-feedforward.txt --> hyperparameters of the NEAT Algorithm.
+
